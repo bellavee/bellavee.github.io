@@ -34,10 +34,17 @@
 
     .github-link {
         position: absolute;
-        top: 2.5rem; /* Adjust as needed */
-        right: 2.5rem; /* Adjust as needed */
-        width: 30px; /* Size of the icon */
+        top: 2.5rem; 
+        right: 2.5rem; 
+        width: 30px; 
         height: 30px;
+    }
+
+    @media (max-width: 768px) {
+      .github-link {
+        top: 1.25rem;
+        right: 1.25rem;
+      }
     }
 
     .github-icon {
@@ -61,7 +68,7 @@
 </style>
 
 <div class="w-full">
-    <div class="card-container bg-navy-700 mx-auto p-10 pb-0 hover:bg-navy-600 transition duration-300 ease-in-out">
+    <div class="card-container bg-navy-700 mx-auto p-5 lg:p-10 pb-0 hover:bg-navy-600 transition duration-300 ease-in-out">
 
         {#if githubLink !== ''}
             <a href={githubLink} target="_blank" class="github-link">

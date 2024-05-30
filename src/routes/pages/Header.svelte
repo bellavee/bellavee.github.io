@@ -1,5 +1,5 @@
 <script>
-    import img_background from '$lib/assets/bg_xl.jpg'
+    export let image = { url: '', alt: '' };
 </script>
 
 <style>
@@ -32,5 +32,5 @@
 </style>
 
 <div class="aspect-ratio">
-    <img src="{img_background}" alt="Background" />
+    <img src={image.url} alt={image.alt} />
 </div>

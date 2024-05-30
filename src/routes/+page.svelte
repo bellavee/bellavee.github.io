@@ -6,12 +6,13 @@
 	import About from './pages/About.svelte';
 	import Hobbies from './pages/Hobbies.svelte';
 	import Header from './pages/Header.svelte';
+	import img_background from '$lib/assets/bg_xl.jpg'
 </script>
 
 <div class="bg-navy-900">
 	<div class="bg-navy-800 max-w-6xl mx-auto">
-		<Header/>
-		<div class="px-2 md:px-20">
+		<Header image={{ url: img_background, alt: 'Header background' }}/>
+		<div class="px-2 md:px-10 lg:px-20">
 			<!-- <Presentation/> -->
 			<About/>
 			<Project/>
