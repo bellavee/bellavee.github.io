@@ -1,14 +1,24 @@
 <script>
-    export let image = { url: '', alt: '' };
+    import img_background from '$lib/assets/bg_xl.jpg'
 </script>
 
 <style>
     .aspect-ratio {
       position: relative;
       width: 100%; /* Adjust width as needed */
-      padding-top: 30%; /* 100 * 9 / 21 */
       overflow: hidden;
+    }
+  
+    .aspect-ratio {
+      padding-top: 30%;
       margin-bottom: 120px;
+    }
+
+    @media (max-width: 768px) {
+      .aspect-ratio {
+        padding-top: 40%; 
+        margin-bottom: 70px;
+      }
     }
   
     .aspect-ratio img {
@@ -19,8 +29,8 @@
       height: 100%;
       object-fit: cover;
     }
-  </style>
+</style>
 
 <div class="aspect-ratio">
-    <img src={image.url} alt={image.alt}/>
+    <img src="{img_background}" alt="Background" />
 </div>
