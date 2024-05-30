@@ -11,7 +11,7 @@
 		tags={['Python', 'Custom Tkinter']}
 		description="An application to display images with tags."
 		image={{ url: img_gallery, alt: 'Screenshot of Gallery app' }}
-		githubLink=""
+		githubLink="https://github.com/bellavee/photo-gallery"
 	/>
 
 	<Card
