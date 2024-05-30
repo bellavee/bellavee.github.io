@@ -30,6 +30,7 @@
     .card-container {
         position: relative;
         transition: all 0.3s ease-in-out;
+        padding-bottom: 0 !important;
     }
 
     .github-link {
@@ -68,7 +69,7 @@
 </style>
 
 <div class="w-full">
-    <div class="card-container bg-navy-700 mx-auto p-5 lg:p-10 pb-0 hover:bg-navy-600 transition duration-300 ease-in-out">
+    <div class="card-container bg-navy-700 mx-auto p-5 lg:p-10 hover:bg-navy-600 transition duration-300 ease-in-out">
 
         {#if githubLink !== ''}
             <a href={githubLink} target="_blank" class="github-link">
