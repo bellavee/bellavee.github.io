@@ -16,7 +16,7 @@
         height: 0;
         padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
         overflow: hidden;
-		margin: 20px 0px;
+		/* margin: 20px 0px; */
     }
 
     .video-container iframe {

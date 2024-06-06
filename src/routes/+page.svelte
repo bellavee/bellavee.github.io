@@ -7,6 +7,7 @@
 	import Hobbies from './pages/Hobbies.svelte';
 	import Header from './pages/Header.svelte';
 	import img_background from '$lib/assets/bg_xl.jpg'
+	import Resume from './pages/Resume.svelte';
 </script>
 
 <div class="bg-navy-900">
@@ -16,7 +17,7 @@
 			<!-- <Presentation/> -->
 			<About/>
 			<Project/>
-			<!-- <Hobbies/> -->
+			<Resume/>
 			<Footer/>
 		</div>
 	</div>

@@ -12,9 +12,9 @@
 		</div>
 
 		<!-- Social Media Links -->
-		<!-- <div class="flex justify-center space-x-4 mt-4 md:mt-0">
+		<div class="flex justify-center space-x-4 mt-4 md:mt-0">
 			<a href="https://linkedin.com/in/bella-vee" target=”_blank” class="hover:text-gray-400 text-xs font-light">LinkedIn</a>
 			<a href="https://github.com/bellavee" target=”_blank” class="hover:text-gray-400 text-xs font-light">GitHub</a>
-		</div> -->
+		</div>
 	</div>
 </footer>
