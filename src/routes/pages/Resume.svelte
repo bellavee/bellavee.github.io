@@ -1,8 +1,10 @@
 <script>
 	import SmallCard from '../components/SmallCard.svelte';
 
-	let resume_fr = '/pdf/resume_bella_fra_v1.pdf';
-	let resume_eng = '/pdf/resume_bella_eng_v1.pdf';
+	import { base } from '$app/paths';
+
+	let resume_fr = `${base}/pdf/resume_bella_fra_v1.pdf`;
+	let resume_eng = `${base}/pdf/resume_bella_eng_v1.pdf`;
 
 </script>
 
