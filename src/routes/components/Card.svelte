@@ -69,31 +69,33 @@
 </style>
 
 <div class="w-full">
-    <div class="card-container bg-navy-700 mx-auto p-5 lg:p-10 hover:bg-navy-600 transition duration-300 ease-in-out">
+    <div class="card-container bg-navy-700 mx-auto hover:bg-navy-600 transition duration-300 ease-in-out">
 
-        {#if githubLink !== ''}
-            <a href={githubLink} target="_blank" class="github-link">
-                <img class="github-icon" src={github_mark} alt="github"/>
-            </a>
-        {/if}
+        <div class="p-5 lg:p-10">
+            {#if githubLink !== ''}
+                <a href={githubLink} target="_blank" class="github-link">
+                    <img class="github-icon" src={github_mark} alt="github"/>
+                </a>
+            {/if}
 
-        {#if title !== ''}
-            <h2 class="text-white font-bold text-2xl mb-2 mr-12">{title}</h2>
-        {/if}
+            {#if title !== ''}
+                <h2 class="text-white font-bold text-2xl mb-2 mr-12">{title}</h2>
+            {/if}
 
-        {#if description !== ''}
-            <p class="text-white font-extralight">
-                {description}
-            </p>
-        {/if}
+            {#if description !== ''}
+                <p class="text-white font-extralight mb-4">
+                    {description}
+                </p>
+            {/if}
 
-        {#if tags.length > 0}
-            <div class="flex flex-wrap gap-2 my-4">
-                {#each tags as tag}
-                    <Tag language={tag} />
-                {/each}
-            </div>
-        {/if}
+            {#if tags.length > 0}
+                <div class="flex flex-wrap gap-2">
+                    {#each tags as tag}
+                        <Tag language={tag} />
+                    {/each}
+                </div>
+            {/if}
+        </div>
 
         {#if videoLink !== ''}
             <div class="video-container relative h-32 md:h-56 2xl:h-64">
