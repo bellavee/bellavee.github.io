@@ -20,7 +20,7 @@
 
 		<div class="my-8">
 			<p>
-				As I blend my technical skills and creative vision, I'm excited about the future possibilities in <span class="text-ctp-blue">game development</span>, especially in <span class="text-ctp-blue">rendering</span>.
+				As I blend my technical skills and creative vision, I'm excited about the future possibilities in <span class="text-ctp-blue">game development</span>.
 			</p>
 		</div>
 	</div>
