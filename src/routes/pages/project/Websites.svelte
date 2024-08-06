@@ -9,7 +9,7 @@ import p_1 from '$lib/assets/project/websites/p_1.png';
 
 let fileData = [
 	{
-		title: 'Current project: Bella Game Store',
+		title: 'WIP: Bella Game Store',
 		description: 'My website for selling game accounts automatically is still in progress. You can visit the prototype at the link in the title.',
 		tags: 'SvelteKit, Tailwind CSS, Pocketbase',
 		image: { url: b_1, alt: 'Screenshot of Bella Store' },
