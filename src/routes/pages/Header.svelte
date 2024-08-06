@@ -10,14 +10,14 @@
     }
   
     .aspect-ratio {
-      padding-top: 30%;
+      padding-top: 10%;
       margin-bottom: 120px;
     }
 
     @media (max-width: 768px) {
       .aspect-ratio {
-        padding-top: 40%; 
-        margin-bottom: 70px;
+        padding-top: 10%; 
+        margin-bottom: 60px;
       }
     }
   

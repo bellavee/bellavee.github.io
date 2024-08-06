@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b3bdf770-b1c4-4b27-a329-0a3f3f3abcf4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/routes/components/Heading.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/assets/bg_md.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/assets/bg_xl.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/assets/bg_xl.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/components/Button.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/components/Button.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/components/Card.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/components/Card.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/components/SmallCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/components/SmallCard.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/components/Tag.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/components/Tag.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/pages/About.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/pages/About.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/pages/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/pages/Footer.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/pages/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/pages/Header.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/pages/Hobbies.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/pages/Hobbies.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/pages/Presentation.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/pages/Presentation.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/pages/Project.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/pages/Project.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/pages/Resume.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/pages/Resume.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/pages/project/Games.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/pages/project/Games.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/pages/project/Tools.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/pages/project/Tools.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/pages/project/Websites.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/pages/project/Websites.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/pdf/resume_bella_eng_v1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/pdf/resume_bella_fra_v1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Heading" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;bellavee&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/bellavee/bellavee.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;ec4747ca-9b47-4caa-85fd-514f785bfad6&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2jmrVtJpykU6jwlAohuqwGCS6OR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Node.js.tailwind.config.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/bellavee.github.io",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.run.executor": "Run",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.1.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\bellavee.github.io\src\lib\utils" />
+      <recent name="E:\bellavee.github.io\src\routes\components" />
+      <recent name="E:\bellavee.github.io\src\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\bellavee.github.io\src\lib\json" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="run" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3bdf770-b1c4-4b27-a329-0a3f3f3abcf4" name="Changes" comment="" />
+      <created>1722003120357</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722003120357</updated>
+      <workItem from="1722003121754" duration="1268000" />
+      <workItem from="1722949302212" duration="1684000" />
+      <workItem from="1722951028768" duration="6680000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -11,15 +11,12 @@
 				height: auto;
         transition: filter 0.3s ease-in-out;
     }
-
-    .icon-inactive {
-        filter: grayscale(100%); /* Gray filter for inactive state */
-    }
+		
 </style>
 
 <button
-	class="flex items-center transition duration-300 ease-in-out text-white font-normal py-4 px-6 text-xl
-         {active ? 'bg-navy-700' : 'bg-navy-900'} hover:bg-navy-700" on:click={onClick}>
-	<img src={iconSrc} alt="btn-icon" class="mr-3 icon {active ? '' : 'icon-inactive'}" />
+	class="text-sm lg:text-base flex items-center transition  duration-300 ease-in-out uppercase font-normal tracking-widest py-1 px-4
+         {active ? 'bg-navy-900 text-white' : 'bg-white text-navy-900 underline'} hover:bg-navy-900 hover:text-white" on:click={onClick}>
+<!--	<img src={iconSrc} alt="btn-icon" class="mr-3 icon {active ? '' : 'grayscale'}" />-->
 	{label}
 </button>

@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
@@ -8,25 +9,40 @@ export default {
       },
       colors: {
         navy: {
-          50: '#ecedf3',
-          100: '#bbbdd3',
-          200: '#9599bb',
-          300: '#7075a4',
-          400: '#3e3e73',
-          500: '#3e3e73',
-          600: '#292963',
-          700: '#252559',
-          800: '#1d1d45',
-          900: '#19193b',
+          50: '#c9cbcb',
+          100: '#b7b9ba',
+          200: '#a6a8a9',
+          300: '#828587',
+          400: '#5e6264',
+          500: '#4c5053',
+          600: '#2f3033',
+          700: '#28292c',
+          800: '#202124',
+          900: '#1c1c1f',
         },
+        page: {
+          200: '#f5f5f5',
+          500: '#e5e5e5',
+        },
+        beige: '#fbf8ef',
+        brown: '#c4c0b1',
+
       }
     },
   },
   plugins: [
-    require("@catppuccin/tailwindcss")({
-      prefix: "ctp",
-      defaultFlavour: "mocha",
-    }),
+    function ({ addUtilities }) {
+      const newUtilities = {
+        ".no-scrollbar::-webkit-scrollbar": {
+          display: "none"
+        },
+        ".no-scrollbar": {
+          "-ms-overflow-style": "none",
+          "-scrollbar-width": "none"
+        }
+      }
+      addUtilities(newUtilities)
+    }
   ],
 }
 
