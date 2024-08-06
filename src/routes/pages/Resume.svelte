@@ -25,7 +25,7 @@
 <div class="mx-4 sm:mx-auto max-w-screen-xl 2xl:max-w-screen-2xl py-20">
 	<Heading label="Resume"/>
 
-	<div class="mt-4 grid grid-cols-2 gap-4">
+	<div class="mt-4 grid grid-cols-1 lg:grid-cols-2 gap-4">
 
 		{#each fileData as data}
 			<SmallCard
