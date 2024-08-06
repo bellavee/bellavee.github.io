@@ -15,12 +15,53 @@
 		},
 		{
 			title: 'Game Account Management',
-			description: 'An application to manage accounts with basic features.',
+			description: 'An application to manage accounts.',
 			tags: 'Python, Tkinter',
 			image: { url: img_account, alt: 'Screenshot of Account app' },
 			link: '',
 			video: ''
-		}
+		},
+		{
+			title: 'Autoclick',
+			description: 'Autoclick for a game to read/skip event story.',
+			tags: 'Python',
+			image: '',
+			link: '',
+			video: ''
+		},
+		{
+			title: 'EPUB from TXT',
+			description: 'Make EPUB from TXT and customize TXT file.',
+			tags: 'Python',
+			image: '',
+			link: '',
+			video: ''
+		},
+		{
+			title: 'PNG to JPG Converter',
+			description: 'PNG to JPG Converter.',
+			tags: 'Python',
+			image: '',
+			link: '',
+			video: ''
+		},
+		{
+			title: 'JSON Generator',
+			description: 'Generate images JSON in a folder.',
+			tags: 'Python',
+			image: '',
+			link: '',
+			video: ''
+		},
+		{
+			title: 'OCR on images',
+			description: 'Perform OCR on all images in the specified directory and save the results as text files using Tesseract OCR.',
+			tags: 'Python',
+			image: '',
+			link: '',
+			video: ''
+		},
+
 	];
 </script>
 

@@ -4,8 +4,26 @@ import ta_2 from '$lib/assets/project/websites/ta_2.png';
 import ta_1 from '$lib/assets/project/websites/ta_1.png';
 import se_1 from '$lib/assets/project/websites/se_1.png';
 import se_2 from '$lib/assets/project/websites/se_2.png';
+import b_1 from '$lib/assets/project/websites/b_1.png';
+import p_1 from '$lib/assets/project/websites/p_1.png';
 
 let fileData = [
+	{
+		title: 'Current project: Bella Game Store',
+		description: 'My website for selling game accounts automatically is still in progress. You can visit the prototype at the link in the title.',
+		tags: 'SvelteKit, Tailwind CSS, Pocketbase',
+		image: { url: b_1, alt: 'Screenshot of Bella Store' },
+		link: 'https://bella-prsk.github.io',
+		video: ''
+	},
+	{
+		title: 'Portfolio',
+		description: 'My portfolio is also a website, right? I usually change the theme when I\'m bored.',
+		tags: 'Svelte, Tailwind CSS',
+		image: { url: p_1, alt: 'Screenshot of Portfolio' },
+		link: 'https://github.com/free-lancer-france/schedule-app',
+		video: ''
+	},
 	{
 		title: 'Schedule Employees’',
 		description: 'Scheduled employees’ work hours for multi-restaurant.',

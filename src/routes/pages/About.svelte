@@ -17,13 +17,20 @@ import Heading from '../components/Heading.svelte';
 
 		<div class="my-8">
 			<p>
-				My journey has evolved from creating intuitive web applications to diving into <span class="font-bold">game development</span>. I am passionate about blending engaging narratives, captivating visuals, and immersive gameplay to create my own games. My particular interest lies in <span class="font-bold">rendering systems</span>.
+				I love technology and am passionate about integrating it into my daily life. As a gamer and a developer, I like making tools that help me keep track of my game progress. I’m also good at graphics and layout design, which makes me interested in creating a unique product.
+		</div>
+
+		
+
+		<div class="my-8">
+			<p>
+				My journey has evolved from creating intuitive web applications to diving into game development. I love putting together great stories, awesome visuals, and fun gameplay to make my own games.
 			</p>
 		</div>
 
 		<div class="my-8">
 			<p>
-				As I blend my technical skills and creative vision, I'm excited about the future possibilities in <span class="font-bold">game development</span>.
+				As I blend my technical skills and creative vision, I'm excited about the future possibilities in game development.
 			</p>
 		</div>
 	</div>

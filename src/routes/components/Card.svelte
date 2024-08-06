@@ -37,7 +37,7 @@
                 <iframe class="absolute top-0 left-0 w-full h-full" 
                   src={fileData.video} allow="autoplay" frameborder="0" allowfullscreen title="Demo"></iframe>
             </div>
-        {:else if fileData.image.url !== ''}
+        {:else if fileData.image !== ''}
             <div class="relative w-full h-full overflow-hidden mt-2">
                 <img alt={fileData.image.alt} class="w-full h-full" src={fileData.image.url} />
             </div>
