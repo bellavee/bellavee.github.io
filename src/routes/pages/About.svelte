@@ -7,7 +7,7 @@ import Heading from '../components/Heading.svelte';
 	<div class="px-10 sm:px-6 lg:px-8 text-left text-lg font-light">
 
 		<div class="flex flex-col justify-start items-center">
-			<Heading label="Hello! I'm Bella" />
+			<Heading label="Hello! I'm Vy" />
 			<span class="mt-2">a game developer</span>
 		</div>
 
