@@ -24,7 +24,7 @@
                       name={tag}
                     />
                     {#if i < selectedTags.length - 1}
-                        <span class="px-3">/</span>
+                        <span class="font-mono text-sm lg:text-base px-3">/</span>
                     {/if}
                 {/each}
             </div>
