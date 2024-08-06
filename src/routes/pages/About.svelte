@@ -17,7 +17,7 @@ import Heading from '../components/Heading.svelte';
 
 		<div class="my-8">
 			<p>
-				I love technology and am passionate about integrating it into my daily life. As a gamer and a developer, I like making tools that help me keep track of my game progress. I’m also good at graphics and layout design, which makes me interested in creating a unique product.
+				I love technology and am passionate about integrating it into my daily life. I enjoy coding and learning new things. I also have a strong sense of graphics and layout design, which makes me interested in creating a unique product.
 		</div>
 
 		
