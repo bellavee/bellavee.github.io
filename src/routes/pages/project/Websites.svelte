@@ -21,7 +21,7 @@ let fileData = [
 		description: 'My portfolio is also a website, right? I usually change the theme when I\'m bored.',
 		tags: 'Svelte, Tailwind CSS',
 		image: { url: p_1, alt: 'Screenshot of Portfolio' },
-		link: 'https://github.com/free-lancer-france/schedule-app',
+		link: 'https://bellavee.github.io/',
 		video: ''
 	},
 	{
