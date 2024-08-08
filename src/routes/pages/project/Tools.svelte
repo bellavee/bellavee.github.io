@@ -10,7 +10,7 @@
 			description: 'An application to display images with tags.',
 			tags: 'Python, Custom Tkinter',
 			image: { url: img_gallery, alt: 'Screenshot of Gallery app' },
-			link: 'https://github.com/bellavee/photo-gallery',
+			link: 'https://github.com/bellavee/python-scripts',
 			video: ''
 		},
 		{
@@ -18,7 +18,7 @@
 			description: 'An application to manage accounts.',
 			tags: 'Python, Tkinter',
 			image: { url: img_account, alt: 'Screenshot of Account app' },
-			link: '',
+			link: 'https://github.com/bellavee/python-scripts',
 			video: ''
 		},
 		{
@@ -26,7 +26,7 @@
 			description: 'Autoclick for a game to read/skip event story.',
 			tags: 'Python',
 			image: '',
-			link: '',
+			link: 'https://github.com/bellavee/python-scripts',
 			video: ''
 		},
 		{
@@ -34,7 +34,7 @@
 			description: 'Make EPUB from TXT and customize TXT file.',
 			tags: 'Python',
 			image: '',
-			link: '',
+			link: 'https://github.com/bellavee/python-scripts',
 			video: ''
 		},
 		{
@@ -42,7 +42,7 @@
 			description: 'PNG to JPG Converter.',
 			tags: 'Python',
 			image: '',
-			link: '',
+			link: 'https://github.com/bellavee/python-scripts',
 			video: ''
 		},
 		{
@@ -50,7 +50,7 @@
 			description: 'Generate images JSON in a folder.',
 			tags: 'Python',
 			image: '',
-			link: '',
+			link: 'https://github.com/bellavee/python-scripts',
 			video: ''
 		},
 		{
@@ -58,7 +58,7 @@
 			description: 'Perform OCR on all images in the specified directory and save the results as text files using Tesseract OCR.',
 			tags: 'Python',
 			image: '',
-			link: '',
+			link: 'https://github.com/bellavee/python-scripts',
 			video: ''
 		},
 
