@@ -21,7 +21,7 @@ let fileData = [
 		description: 'Handled graphics, lighting, effects, and post-processing.',
 		tags: 'Unreal Engine 5, Blueprint, Shaders',
 		video: 'https://drive.google.com/file/d/1qOjdPGvJsl8xCMskaPqXQl-NFLOiwuJr/preview',
-		link: 'https://github.com/bellavee/outbreak_ue5cpp',
+		link: 'https://github.com/Cesca19/ShadersProject',
 		image: { url: '', alt: '' }
 	},
 	{

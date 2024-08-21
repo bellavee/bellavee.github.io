@@ -16,7 +16,7 @@
 
 </script>
 
-<div class="mx-4 sm:mx-auto max-w-screen-xl 2xl:max-w-screen-2xl py-10 md:py-20">
+<div class="mx-4 sm:mx-auto max-w-screen-xl 2xl:max-w-screen-2xl pt-20">
 	<Heading label="Projects"/>
 	
 	<div class="mt-4 flex flex-wrap items-center gap-4 justify-start mb-4">

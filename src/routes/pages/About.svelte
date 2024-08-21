@@ -2,7 +2,7 @@
 import Heading from '../components/Heading.svelte';
 </script>
 
-<div class="flex flex-col justify-center">
+<div class="flex flex-col justify-center pt-20">
 
 	<div class="px-10 sm:px-6 lg:px-8 text-left text-lg font-light">
 
@@ -28,7 +28,7 @@ import Heading from '../components/Heading.svelte';
 			</p>
 		</div>
 
-		<div class="my-8">
+		<div class="mt-8">
 			<p>
 				As I blend my technical skills and creative vision, I'm excited about the future possibilities in game development.
 			</p>
