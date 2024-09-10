@@ -8,7 +8,7 @@
 	<div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
 		<!-- Rights Statement -->
 		<div class="text-center md:text-left text-xs font-light">
-			<p>&copy; 2024 Bella. All rights reserved.</p>
+			<p>&copy; 2024 Bella Vũ. All rights reserved.</p>
 		</div>
 
 		<!-- Social Media Links -->

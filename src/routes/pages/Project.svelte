@@ -18,7 +18,7 @@
 
 <div class="mx-4 sm:mx-auto max-w-screen-xl 2xl:max-w-screen-2xl pt-20">
 	<Heading label="Projects"/>
-	
+	<p class="mt-4">I included a link to source code, or product in the title of each project.</p>
 	<div class="mt-4 flex flex-wrap items-center gap-4 justify-start mb-4">
 		<Button
 			label="Games"
@@ -31,7 +31,7 @@
 			active={activePage === 'Websites'}
 			onClick={() => setActivePage('Websites')} />
 		<Button
-			label="Tools"
+			label="Tools"g
 			iconSrc={toolkit}
 			active={activePage === 'Tools'}
 			onClick={() => setActivePage('Tools')} />

@@ -1,16 +1,13 @@
 <script>
 import Card from '../../components/Card.svelte';
-import ta_2 from '$lib/assets/project/websites/ta_2.png';
-import ta_1 from '$lib/assets/project/websites/ta_1.png';
 import se_1 from '$lib/assets/project/websites/se_1.png';
-import se_2 from '$lib/assets/project/websites/se_2.png';
 import b_1 from '$lib/assets/project/websites/b_1.png';
 import p_1 from '$lib/assets/project/websites/p_1.png';
 
 let fileData = [
 	{
 		title: 'Bella Sekai',
-		description: 'My website for selling digital products. You can visit the store at the link in the title.',
+		description: 'My website for selling digital products.',
 		tags: 'SvelteKit, Tailwind CSS, Pocketbase',
 		image: { url: b_1, alt: 'Screenshot of Bella Store' },
 		link: 'https://game.bellasekai.com',
@@ -18,7 +15,7 @@ let fileData = [
 	},
 	{
 		title: 'Portfolio',
-		description: 'My portfolio is also a website, right? I usually change the theme when I\'m bored.',
+		description: 'I designed and built my portfolio.',
 		tags: 'Svelte, Tailwind CSS',
 		image: { url: p_1, alt: 'Screenshot of Portfolio' },
 		link: 'https://bellavee.github.io/',
@@ -29,7 +26,7 @@ let fileData = [
 		description: 'Scheduled employees’ work hours for multi-restaurant.',
 		tags: 'Java, Spring Boot, Thymeleaf, Bootstrap, HTMX, PostgreSQL, Keycloak, Docker',
 		image: { url: se_1, alt: 'Screenshot of Schedule Employees’' },
-		link: 'https://github.com/free-lancer-france/schedule-app',
+		link: '',
 		video: ''
 	},
 	{
