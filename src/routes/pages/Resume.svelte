@@ -10,12 +10,12 @@
 	let fileData = [
 		{
 			title: "French",
-			description: "Last updated: 6 August 2024",
+			description: "Last updated: 11 September 2024",
 			link: resume_fr
 		},
 		{
 			title: "English",
-			description: "Last updated: 6 August 2024",
+			description: "Last updated: 11 September 2024",
 			link: resume_eng
 		},
 	];
