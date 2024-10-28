@@ -10,7 +10,7 @@ const config = {
 			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
 		},
 		prerender: {
-			entries: ["/", "/bella_sekai", "/flashcard", "/schedule_emloyees", "/twitter_alarm"]
+			entries: ["/", "/projects/bella_sekai", "/projects/flashcard", "/projects/schedule_emloyees", "/projects/twitter_alarm"]
 		}
 	}
 };
