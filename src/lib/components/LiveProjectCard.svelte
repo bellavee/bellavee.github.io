@@ -1,6 +1,5 @@
 ﻿<script>
-    import { Globe, Gamepad2, Code, ExternalLink } from 'lucide-svelte';
-    import tagColors from '$lib/json/tag_colors.json';
+    import { Globe, Gamepad2, Code } from 'lucide-svelte';
 
     export let project = {
         type: 'code',

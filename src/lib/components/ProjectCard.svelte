@@ -31,7 +31,7 @@
          style="--tw-gradient-to: {tagColors[color]}08"></div>
     
     <!-- Content -->
-    <a href="/" class="relative p-6 flex flex-col h-full">
+    <a href="/project/{project.id}" class="relative p-6 flex flex-col h-full">
         <!-- Header -->
         <div class="flex items-start justify-between mb-4">
             <div class="flex items-center">

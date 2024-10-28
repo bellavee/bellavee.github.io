@@ -1,7 +1,6 @@
 <script>
     import Hero from "$lib/components/Hero.svelte";
     import ProjectCard from "$lib/components/ProjectCard.svelte";
-    import { fade } from 'svelte/transition';
     import { Clock, Layout, Rocket } from 'lucide-svelte';
     import LiveProjectCard from "$lib/components/LiveProjectCard.svelte";
     import AboutMe from "$lib/components/AboutMe.svelte";
@@ -75,7 +74,7 @@
                     </div>
                     <div class="grid grid-cols-1 gap-6">
                         {#each liveProjects as project (project.id)}
-                            <div transition:fade={{ duration: 300 }}>
+                            <div>
                                 <LiveProjectCard {project} />
                             </div>
                         {/each}
@@ -96,7 +95,7 @@
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {#each newestProjects as project (project.id)}
-                        <div transition:fade={{ duration: 300 }}>
+                        <div>
                             <ProjectCard {project} color={'Tsusaka'}/>
                         </div>
                     {/each}
@@ -133,7 +132,7 @@
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {#each projects[activeTab] as project (project.id)}
-                        <div transition:fade={{ duration: 300 }}>
+                        <div>
                             <ProjectCard {project} color={typeColors[activeTab]}/>
                         </div>
                     {/each}
