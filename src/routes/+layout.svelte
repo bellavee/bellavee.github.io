@@ -1,15 +1,18 @@
-﻿<script>
-    import '../app.css';
-    // import { navigating } from '$app/stores';
-    import { fly } from 'svelte/transition';
-    import Footer from "../lib/components/Footer.svelte";
+<script>
+	import "../app.css";
+    import Header from './pages/Header.svelte';
+
+    import img_background from '$lib/assets/bg_xl.jpg'
+    
 </script>
 
-<div class="flex flex-col min-h-screen bg-navy-900">
-    <!--{#key $navigating}-->
-        <main class="flex-grow" in:fly={{ y: 50, duration: 400, delay: 300 }}>
+<div class="bg-navy-900">
+    <div class="bg-white max-w-6xl mx-auto">
+<!--        <Header image={{ url: img_background, alt: 'Header background' }}/>-->
+        <div class="md:px-5 lg:px-10">
+            <!-- <Presentation/> -->
             <slot />
-        </main>
-    <!--{/key}-->
-    <Footer />
+
+        </div>
+    </div>
 </div>
