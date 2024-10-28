@@ -2,6 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    font-family: 'Inter', sans-serif;
+@layer base {
+    :root {
+        font-family: 'Inter', sans-serif;
+    }
+}
+
+@layer utilities {
+    .scrollbar::-webkit-scrollbar {
+        width: 12px;
+        height: 12px;
+    }
+
+    .scrollbar::-webkit-scrollbar-track {
+        border-radius: 100vh;
+        background: #1c1c1f;
+    }
+
+    .scrollbar::-webkit-scrollbar-thumb {
+        background: #a6a8a9;
+        border-radius: 100vh;
+    }
+
+    .scrollbar::-webkit-scrollbar-thumb:hover {
+        background: #5e6264;
+    }
+
+    .no-select {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
 }
