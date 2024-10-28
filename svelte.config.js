@@ -8,9 +8,6 @@ const config = {
 		}),
 		paths: {
 			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
-		},
-		prerender: {
-			entries: ["/", "/projects/bella_sekai", "/projects/flashcard", "/projects/schedule_emloyees", "/projects/twitter_alarm"]
 		}
 	}
 };
