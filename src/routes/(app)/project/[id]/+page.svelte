@@ -29,10 +29,6 @@
     $: icon = project.icon ? getImageUrl(project.icon) : null;
     $: projectColor = tagColors[project.color] || tagColors['default'];
 
-    function formatDescription(text) {
-        return text.replace(/\n/g, '<br>');
-    }
-
     let currentSlide = 0;
     let slideInterval;
 
@@ -113,7 +109,7 @@
                 <div class="mb-8 grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div class="md:col-span-2">
                         <h2 class="text-xl font-semibold text-navy-200 mb-3">About this project</h2>
-                        <div class="text-navy-300 description-text">{@html formatDescription(project.description)}</div>
+                        <div class="text-navy-300 description-text">{project.description}</div>
                     </div>
                     <div class="space-y-6">
                         <div>

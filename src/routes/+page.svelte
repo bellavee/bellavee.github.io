@@ -2,8 +2,7 @@
     import Hero from "$lib/components/Hero.svelte";
     import ProjectCard from "$lib/components/ProjectCard.svelte";
     import { fade } from 'svelte/transition';
-    import { Clock, Code, Gamepad2, Github, Globe, Layout, Linkedin, Rocket, Sparkles } from 'lucide-svelte';
-    import { getImageUrl } from "$lib/utils/utils.js";
+    import { Clock, Layout, Rocket } from 'lucide-svelte';
     import LiveProjectCard from "$lib/components/LiveProjectCard.svelte";
     import AboutMe from "$lib/components/AboutMe.svelte";
     import tagColors from "$lib/json/tag_colors.json";
