@@ -6,6 +6,7 @@
     import { goto } from '$app/navigation';
     import { page } from '$app/stores';
     import projectsData from '$lib/json/projects.json';
+    import { base } from "$app/paths";
     
     // Get project ID from URL parameter
     $: projectId = $page.params.id;
